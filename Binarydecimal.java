@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class BinDecCon_21{
+class BinDecCon_48{
     public static void main(String[] args) { 
     Scanner reader = new Scanner(System.in);
     System.out.println("Enter 1 to convert binary to decimal, or 2 to convert decimal to binary: ");
