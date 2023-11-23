@@ -1,10 +1,13 @@
-class Oddoreven_48 {
-	public static void main(String ags[]) {
-		int a=67;
-		System.out.println("The number is "+a);
-		if(a%2==0) 
-			System.out.println("Number is even");
-		else
-			System.out.println("Number is odd");
-	}
+import java.util.Scanner;
+
+public class EvenOdd_21 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
 }
