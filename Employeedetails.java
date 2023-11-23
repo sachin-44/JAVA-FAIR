@@ -59,7 +59,7 @@ class Manager extends Employee{
 }
 
 
-class Inheritance_57{
+class Employeedetails_48{
 	public static void main(String args[]){
 	    Scanner s=new Scanner(System.in);
 	    String name,address,specialization,department,str;
