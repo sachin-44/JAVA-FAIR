@@ -1,9 +1,14 @@
-class SumOf1stn_48 {
-	public static void main (String args[]) {
-		int n=5,i,sum=0;
-		System.out.println("Number is "+n);
-		for(i=1;i<=n;++i)
-			sum+=i;
-		System.out.println("Sum upto "+n+"="+sum);
-	}
+import java.util.Scanner;
+
+public class SumOfN_48 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int n = reader.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+        System.out.println("The sum of the first " + n + " numbers is " + sum);
+    }
 }
