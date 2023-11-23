@@ -1,20 +1,23 @@
-class Largestof3_48 {
-	public static void main(String args[]) {
-		int a=2,b=5,c=3;
-		System.out.println("First number:"+a);
-		System.out.println("Second number:"+b);
-		System.out.println("Third number:"+c);
-		if(a>b) {
-			if(a>c)
-				System.out.println("Largest number is "+a);
-			else
-				System.out.println("Largest umber is "+c);
-		}
-		else {
-			if(b>c)
-				System.out.println("Largest number is "+b);
-			else
-				System.out.println("Largest number is "+c);
-		}
-	}
-} 
+import java.util.Scanner;
+
+public class LargestOfThree_48 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter three numbers: ");
+        double num1 = reader.nextDouble();
+        double num2 = reader.nextDouble();
+        double num3 = reader.nextDouble();
+        
+        double largest;
+
+        if (num1 >= num2 && num1 >= num3) {
+            largest = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            largest = num2;
+        } else {
+            largest = num3;
+        }
+
+        System.out.println("The largest number is " + largest);
+    }
+}
