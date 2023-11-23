@@ -1,23 +1,37 @@
-class Day_48 {
-	public static void main (String args[]) {
-		int day=5;
-		System.out.println("Entered number is "+day);
-		switch(day) {
-			case 1: System.out.println("Sunday");
-					break;
-			case 2: System.out.println("Monday");
-					break;
-			case 3: System.out.println("Tuesday");
-					break;
-			case 4: System.out.println("Wednesday");
-					break;
-			case 5: System.out.println("Thursday");
-					break;
-			case 6: System.out.println("Friday");
-					break;
-			case 7: System.out.println("Saturday");
-					break;
-			default:System.out.println("Wrong input");
-		}
-	}
+import java.util.Scanner;
+
+public class DayOfWeek_48 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter the day number (1-7): ");
+        int dayNum = reader.nextInt();
+        String dayName;
+        switch (dayNum) {
+            case 1:
+                dayName = "Sunday";
+                break;
+            case 2:
+                dayName = "Monday";
+                break;
+            case 3:
+                dayName = "Tuesday";
+                break;
+            case 4:
+                dayName = "Wednesday";
+                break;
+            case 5:
+                dayName = "Thursday";
+                break;
+            case 6:
+                dayName = "Friday";
+                break;
+            case 7:
+                dayName = "Saturday";
+                break;
+            default:
+                dayName = "Invalid day number";
+                break;
+        }
+        System.out.println("The day of the week is " + dayName);
+    }
 }
