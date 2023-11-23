@@ -37,7 +37,7 @@ class Employee {
     }
 }
 
-public class Employe_21 {
+public class Employe_48 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
