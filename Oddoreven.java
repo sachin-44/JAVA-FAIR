@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOdd_21 {
+public class EvenOdd_48 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter a number: ");
